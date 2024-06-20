@@ -17,7 +17,7 @@ p {
 }
 
 .row {
-    max-width: 56%;
+    max-width: 55%;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
