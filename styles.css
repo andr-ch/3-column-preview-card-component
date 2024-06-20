@@ -144,7 +144,7 @@ footer.attribution {
 
 @media (min-width: 792px) and (max-width: 1440px)  {
     .row {        
-        max-width: 96%;    
+        max-width: 98%;    
     }
 
     .bg-main {
