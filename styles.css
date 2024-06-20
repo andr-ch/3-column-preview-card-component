@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(170, 190, 207);
+    font-family: 'Lexend Deca', sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 8%;
+    line-height: 2;
+}
+
+.bg-main {
+    padding: 12rem 3rem;
+}
+
+.row {
+    max-width: 56%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 13%;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area {
+    margin: 10% 8px 28px 9%;
+}
+
+.car1-section, .car2-section, .car3-section {
+    padding: 20px;
+}
+
+.car1-section {
+    background-color: rgb(236, 124, 79);
+}
+
+.car2-section {
+    background-color: rgb(63, 119, 156);
+}
+
+.car3-section {
+    background-color: rgb(17, 83, 85);
+}
+
+.btn {
+    font-family: "Lexend Deca", sans-serif;
+    margin-top: 26%;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.car1-section .learn-more-button:hover {
+    background-color: white; /* Change background on hover */
+    color: hsl(31, 77%, 52%); /* Change text color on hover */
+    font-weight: bold;
+}
+
+
+.car2-section .learn-more-button:hover {
+    background-color: white; /* Change background on hover */
+    color: hsl(184, 100%, 22%); /* Change text color on hover */
+    font-weight: bold;
+}
+
+
+.car3-section .learn-more-button:hover {
+    background-color: white; /* Change background on hover */
+    color: hsl(179, 100%, 13%);
+    ; /* Change text color on hover */
+    font-weight: bold;
+}
+
+
+/* Footer section */
+footer.attribution {
+    background-color: inherit; /* Inherit background color from body */
+    color: ghostwhite;
+    width: 100%;
+    padding: 20px;
+    margin-top: 42px;
+    text-align: center;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 767px) {
+    img {
+        width: 24%;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+
+    .bg-main {
+        padding: 5rem 3rem;
+    }
+
+
+    .row {
+        max-width: 106%;
+        flex-direction: column;
+    }
+
+    .car1-section, .car2-section, .car3-section {
+        padding: 13px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 7%;
+    }
+
+    .btn {
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .attribution {
+        display: none;
+    }
+}
+
+
+@media (min-width: 792px) and (max-width: 1440px)  {
+    .row {        
+        max-width: 96%;    
+    }
+
+    .bg-main {
+        padding: 12rem 3rem;
+    }
+}
+
