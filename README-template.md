@@ -46,8 +46,6 @@ Users should be able to:
 - Bootstrap 4.6.2 - For responsive design and styling
 - Flexbox - For layout
 - Mobile-first workflow
-- jQuery - JS library
-- Popper.js - For tooltip and popover positioning
 - Google Fonts - Custom fonts (Big Shoulders Display and Lexend Deca)
 
 
