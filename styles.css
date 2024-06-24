@@ -142,13 +142,13 @@ footer.attribution {
 }
 
 
-@media (min-width: 792px) and (max-width: 1269px)  {
+@media (min-width: 792px) and (max-width: 1440px)  {
     .row {        
-        max-width: 105%;  
+        max-width: 98%;    
     }
 
     .bg-main {
-        padding: 12rem 1rem;
+        padding: 12rem 3rem;
     }
 }
 
